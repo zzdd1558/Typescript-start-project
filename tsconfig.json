@@ -1,0 +1,15 @@
+/**
+ tsconfig.json은
+ tsc --init 명령어를 통해 생성 가능
+*/
+{
+  "compilerOptions": {
+
+    "target": "es5",              // 컴파일 후 변환되는 ECMA 스크립트 버전 명시.
+    "module": "commonjs",         //
+    "strict": true,
+
+
+    "forceConsistentCasingInFileNames": true
+  }
+}
